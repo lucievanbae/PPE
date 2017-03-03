@@ -1,0 +1,7 @@
+sejours_patients_homepage:
+    path:     /accueil/
+    defaults: { _controller: SejoursPatientsBundle:Default:index }
+
+sejours_patients_ajout_Patient:
+    path:     /ajout_Patient/
+    defaults: { _controller: SejoursPatientsBundle:Default:ajout_Patient }

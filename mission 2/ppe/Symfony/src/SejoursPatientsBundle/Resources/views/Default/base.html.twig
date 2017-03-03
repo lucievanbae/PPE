@@ -1,0 +1,19 @@
+{% extends'::base.html.twig' %}
+{% block body %}
+<h2>Les séjours</h2>
+<div id="menu">
+	<ul>
+		<li>Accueil</li>
+		<li><a href="{{path('sejours_patients_ajout_Patient',{})}}">Ajout d'un patient</a></li>
+		<li>Modifier patient</li>
+		<li>Arrivée d'un patient</li>
+		<li>Sortie d'un patient</li>
+		<li>Données du patient</li>
+	</ul>
+</div>
+<div id="corps">
+{% block corps %}
+<p>Page d'accueil</p>
+{%endblock %}
+</div>
+{% endblock %}

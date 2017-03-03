@@ -1,0 +1,8 @@
+{% extends'SejoursPatientsBundle:default:base.html.twig' %}
+{% block corps %}
+<h2>Ajout d'un patient</h2>
+<form action="{{path('sejours_patients_ajout_Patient')}}"method="POST">
+{{form_widget(form)}}
+</form>
+{%endblock %}
+

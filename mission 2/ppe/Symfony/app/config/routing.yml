@@ -1,0 +1,7 @@
+sejours_patients:
+    resource: "@SejoursPatientsBundle/Resources/config/routing.yml"
+    prefix:   /sejoursPatients/
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
